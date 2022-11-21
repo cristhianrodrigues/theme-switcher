@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: #F1F1F1;
+    transition: 0.5s;
+  }
+  
+  #checkboxInput {
+    display: none;
+  }
+  
+  .switch {
+    display: flex;
+    align-items: center;
+    width: 13rem;
+    height: 5.5rem;
+    background: url(./assets/moon.svg) left, url(./assets/sun.svg) right;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    background-color: #111;
+    padding: 0 0.8rem 0 0.8rem;
+    border-radius: 3.125rem;
+    cursor: pointer;
+  }
+  
+  .slider {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgb(226, 226, 226);
+    margin: 0 -0.5rem 0 -0.5rem;
+    transition: 0.5s;
+  }
+  
+  .labelDarkModeOn {
+    transform: translateX(7.4rem);
+  }
+
+  .darkTheme {
+    background-color: #292C35;
+  }
